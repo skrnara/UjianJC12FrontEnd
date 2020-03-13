@@ -1,14 +1,118 @@
 {
-    "users":[
-        {
-            "id":1,
-            "username":"billie",
-            "password":"password123"
-        },
-        {
-            "id":2,
-            "username":"rudytabuti",
-            "password":"chalkzone123"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "username": "billie",
+      "password": "password123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "rudytabuti",
+      "password": "chalkzone123",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Blue T-Shirt",
+      "image": "https://www.chloe.com/12/12395202OO_22_f.jpg",
+      "stock": "50",
+      "categoryId": 1,
+      "price": 350000,
+      "seen": 0,
+      "description": "casual cotton t-shirt"
+    },
+    {
+      "id": 2,
+      "name": "White Floral Blouse",
+      "image": "https://www.chloe.com/12/12395188sl_22_f.jpg",
+      "stock": 12,
+      "categoryId": 1,
+      "price": 3000000,
+      "description": "floral rayon blouse"
+    },
+    {
+      "id": 3,
+      "name": "Camel Jacket",
+      "image": "https://www.chloe.com/41/41931850jl_22_f.jpg",
+      "stock": 43,
+      "categoryId": 1,
+      "price": 14000000,
+      "description": "Cotton monogram trench coat with turn-up cuffs"
+    },
+    {
+      "id": 4,
+      "name": "Midi Skirt",
+      "image": "https://www.chloe.com/35/35434937av_22_f.jpg",
+      "stock": 23,
+      "categoryId": 2,
+      "price": 3500000,
+      "description": "Flou kilted skirt in C & horse crêpe de chine jacquard"
+    },
+    {
+      "name": "Mini Tricolor Bag",
+      "image": "https://www.chloe.com/45/45504984nx_22_f.jpg",
+      "stock": 21,
+      "categoryId": 4,
+      "price": 2500000,
+      "description": "mini bag in tricolor shiny calfskin",
+      "id": 5
+    },
+    {
+      "name": "Mini Shoulder Bag",
+      "image": "https://www.chloe.com/45/45489996ps_22_f.jpg",
+      "stock": 12,
+      "categoryId": 4,
+      "price": 24000000,
+      "description": "shoulder bag in embossed croco effect on calfskin",
+      "id": 6
+    },
+    {
+      "name": "Mini Velvet Bag",
+      "image": "https://www.chloe.com/45/45490001ou_22_f.jpg",
+      "stock": 10,
+      "categoryId": 4,
+      "price": 34000000,
+      "description": "mini bag in velvet, patent calfskin & shiny calfskin",
+      "id": 7
+    },
+    {
+      "name": "Medium Ankle Boot",
+      "image": "https://www.chloe.com/11/11426508is_22_f.jpg",
+      "stock": 20,
+      "categoryId": 3,
+      "price": 4000000,
+      "description": "ankle boot in calfskin with a comfortable elevated block heel",
+      "id": 8
+    },
+    {
+      "name": "Ankle Boot",
+      "image": "https://www.chloe.com/11/11481640gx_22_f.jpg",
+      "stock": 1,
+      "categoryId": 3,
+      "price": 45000000,
+      "description": "lace-up bootie in nubuck calfskin with a cool, chunky structure",
+      "id": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "tops"
+    },
+    {
+      "id": 2,
+      "name": "bottoms"
+    },
+    {
+      "id": 3,
+      "name": "shoes"
+    },
+    {
+      "id": 4,
+      "name": "bag"
+    }
+  ]
 }
