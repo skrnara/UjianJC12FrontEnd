@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "billie",
-      "password": "password123",
+      "password": "123",
       "role": "admin"
     },
     {
@@ -11,51 +11,92 @@
       "username": "rudytabuti",
       "password": "chalkzone123",
       "role": "user"
+    },
+    {
+      "username": "lola",
+      "password": "12",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "kehlani",
+      "password": "321",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "looola",
+      "password": "1",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "username": "moop",
+      "password": "p",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "username": "lyla",
+      "password": "pool",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "username": "lea",
+      "password": "skywalker",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "username": "lilo",
+      "password": "stitch",
+      "role": "user",
+      "id": 9
     }
   ],
   "products": [
     {
-      "id": 1,
       "name": "Blue T-Shirt",
       "image": "https://www.chloe.com/12/12395202OO_22_f.jpg",
-      "stock": "50",
+      "stock": 40,
       "categoryId": 1,
       "price": 350000,
-      "seen": 0,
-      "description": "casual cotton t-shirt"
+      "description": "casual cotton t-shirt",
+      "id": 1
     },
     {
-      "id": 2,
       "name": "White Floral Blouse",
       "image": "https://www.chloe.com/12/12395188sl_22_f.jpg",
       "stock": 12,
       "categoryId": 1,
-      "price": 3000000,
-      "description": "floral rayon blouse"
+      "price": 300000,
+      "description": "floral rayon blouse",
+      "id": 2
     },
     {
-      "id": 3,
       "name": "Camel Jacket",
       "image": "https://www.chloe.com/41/41931850jl_22_f.jpg",
       "stock": 43,
       "categoryId": 1,
-      "price": 14000000,
-      "description": "Cotton monogram trench coat with turn-up cuffs"
+      "price": 1400000,
+      "description": "Cotton monogram trench coat with turn-up cuffs",
+      "id": 3
     },
     {
-      "id": 4,
       "name": "Midi Skirt",
       "image": "https://www.chloe.com/35/35434937av_22_f.jpg",
       "stock": 23,
       "categoryId": 2,
-      "price": 3500000,
-      "description": "Flou kilted skirt in C & horse crêpe de chine jacquard"
+      "price": 450000,
+      "description": "Flou kilted skirt ",
+      "id": 4
     },
     {
       "name": "Mini Tricolor Bag",
       "image": "https://www.chloe.com/45/45504984nx_22_f.jpg",
       "stock": 21,
-      "categoryId": 4,
+      "categoryId": 3,
       "price": 2500000,
       "description": "mini bag in tricolor shiny calfskin",
       "id": 5
@@ -64,37 +105,55 @@
       "name": "Mini Shoulder Bag",
       "image": "https://www.chloe.com/45/45489996ps_22_f.jpg",
       "stock": 12,
-      "categoryId": 4,
-      "price": 24000000,
-      "description": "shoulder bag in embossed croco effect on calfskin",
+      "categoryId": 3,
+      "price": 2400000,
+      "description": "shoulder bag in embossed calfskin",
       "id": 6
     },
     {
       "name": "Mini Velvet Bag",
       "image": "https://www.chloe.com/45/45490001ou_22_f.jpg",
       "stock": 10,
-      "categoryId": 4,
-      "price": 34000000,
-      "description": "mini bag in velvet, patent calfskin & shiny calfskin",
+      "categoryId": 3,
+      "price": 3400000,
+      "description": "mini bag in velvet, patent & shiny calfskin",
       "id": 7
     },
     {
-      "name": "Medium Ankle Boot",
-      "image": "https://www.chloe.com/11/11426508is_22_f.jpg",
-      "stock": 20,
+      "name": "Autumn Crossbody Bag",
+      "image": "https://www.chloe.com/45/45493406et_22_f.jpg",
+      "stock": 14,
       "categoryId": 3,
-      "price": 4000000,
-      "description": "ankle boot in calfskin with a comfortable elevated block heel",
+      "price": 1400000,
+      "description": "Textured leather with suede effect",
       "id": 8
     },
     {
-      "name": "Ankle Boot",
-      "image": "https://www.chloe.com/11/11481640gx_22_f.jpg",
-      "stock": 1,
+      "name": "Bucket Bag",
+      "image": "https://www.chloe.com/45/45460027va_22_f.jpg",
+      "stock": 4,
       "categoryId": 3,
-      "price": 45000000,
-      "description": "lace-up bootie in nubuck calfskin with a cool, chunky structure",
+      "price": 2000000,
+      "description": "Double-carry bucket bag",
       "id": 9
+    },
+    {
+      "name": "White Tote Bag",
+      "image": "https://www.chloe.com/45/45505068ee_22_f.jpg",
+      "stock": 23,
+      "categoryId": 3,
+      "price": 1500000,
+      "description": "Tote bag in canvas with a feminine twist",
+      "id": 10
+    },
+    {
+      "name": "Evening Bag",
+      "image": "https://www.chloe.com/45/45505061bs_22_f.jpg",
+      "stock": 31,
+      "categoryId": 3,
+      "price": 1800000,
+      "description": "Evening handbag with a refined chain strap",
+      "id": 11
     }
   ],
   "categories": [
@@ -108,11 +167,24 @@
     },
     {
       "id": 3,
-      "name": "shoes"
-    },
-    {
-      "id": 4,
       "name": "bag"
+    }
+  ],
+  "transactions": [
+    {
+      "status": "finished",
+      "userId": 8,
+      "id": 1,
+      "method": "cc",
+      "total": 3400000
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 1,
+      "productId": 7,
+      "qty": 1,
+      "id": 1
     }
   ]
 }
