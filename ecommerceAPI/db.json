@@ -35,24 +35,6 @@
       "password": "p",
       "role": "user",
       "id": 6
-    },
-    {
-      "username": "lyla",
-      "password": "pool",
-      "role": "user",
-      "id": 7
-    },
-    {
-      "username": "lea",
-      "password": "skywalker",
-      "role": "user",
-      "id": 8
-    },
-    {
-      "username": "lilo",
-      "password": "stitch",
-      "role": "user",
-      "id": 9
     }
   ],
   "products": [
@@ -171,20 +153,7 @@
     }
   ],
   "transactions": [
-    {
-      "status": "finished",
-      "userId": 8,
-      "id": 1,
-      "method": "cc",
-      "total": 3400000
-    }
   ],
   "transactiondetails": [
-    {
-      "transactionId": 1,
-      "productId": 7,
-      "qty": 1,
-      "id": 1
-    }
   ]
 }
